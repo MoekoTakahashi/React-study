@@ -10,7 +10,7 @@ const Article = (props) => {
       <label htmlFor="check">公開状態：</label>
       <input type="checkbox"checked={isPublished} 
       id="check" onClick={() => togglePublished(!isPublished)}/> 
-      {/* <LikeButton count={props.count}/> */}
+      <LikeButton />
     </div>
   )
 };
